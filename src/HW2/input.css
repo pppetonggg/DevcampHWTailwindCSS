@@ -26,4 +26,12 @@ nav a:hover {
     .icon-social img{
         @apply mx-auto max-h-[50px]
     }
+
+    .left-box *{
+        @apply mb-7
+    }
+
+    .mr-box *{
+        @apply mb-2 text-center
+    }
 }
