@@ -34,4 +34,16 @@ nav a:hover {
     .mr-box *{
         @apply mb-2 text-center
     }
+
+    .icon-survey{
+        @apply h-[100px] m-auto
+    }
+
+    .number{
+        @apply underline text-gray-600 text-[24pt] decoration-green-700 decoration-[10px]
+    }
+
+    .text{
+        @apply mt-3 text-gray-400
+    }
 }
