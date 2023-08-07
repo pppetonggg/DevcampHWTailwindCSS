@@ -46,4 +46,8 @@ nav a:hover {
     .text{
         @apply mt-3 text-gray-400
     }
+
+    .icon-social-footer img{
+        @apply max-h-[50px]
+    }
 }
