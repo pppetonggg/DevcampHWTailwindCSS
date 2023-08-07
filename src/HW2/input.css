@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply font-rubik;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav a {
+    @apply m-auto;
+}
+
+nav a:hover {
+    @apply underline;
+}
+
+
+@layer components {
+
+    .icon-social{
+        @apply my-[10px] ml-[200px] mr-[80px]
+    }
+
+    .icon-social img{
+        @apply mx-auto max-h-[50px]
+    }
+}
