@@ -793,6 +793,10 @@ video {
   width: 900px;
 }
 
+.w-\[60vw\] {
+  width: 60vw;
+}
+
 .table-auto {
   table-layout: auto;
 }
@@ -1249,6 +1253,10 @@ video {
 
 .\[\&\>\*\]\:m-auto>* {
   margin: auto;
+}
+
+.\[\&\>\*\]\:mb-\[10px\]>* {
+  margin-bottom: 10px;
 }
 
 .\[\&\>\*\]\:py-4>* {
