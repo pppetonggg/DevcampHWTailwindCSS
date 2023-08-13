@@ -597,6 +597,14 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.continue-btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  opacity: 0.75;
+}
+
 .absolute {
   position: absolute;
 }
@@ -627,6 +635,10 @@ video {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-3 {
@@ -693,6 +705,10 @@ video {
   display: grid;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-\[100px\] {
   height: 100px;
 }
@@ -709,6 +725,10 @@ video {
   height: 200px;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
 .h-\[50px\] {
   height: 50px;
 }
@@ -717,12 +737,20 @@ video {
   width: 0.25rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .w-\[100px\] {
   width: 100px;
 }
 
 .w-\[20vw\] {
   width: 20vw;
+}
+
+.w-\[250px\] {
+  width: 250px;
 }
 
 .w-\[300px\] {
@@ -821,6 +849,10 @@ video {
   align-items: flex-start;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -836,6 +868,14 @@ video {
 
 .rounded-\[50\%\] {
   border-radius: 50%;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded-r-md {
@@ -891,6 +931,10 @@ video {
   --tw-bg-opacity: 0.6;
 }
 
+.bg-\[url\(\'https\:\/\/images\.ctfassets\.net\/usf1vwtuqyxm\/71J6YPxNauhFABbjHpGluJ\/631bd6980b0a430d5b476ef331abb2b5\/release_1_hogwarts\.png\'\)\] {
+  background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/71J6YPxNauhFABbjHpGluJ/631bd6980b0a430d5b476ef331abb2b5/release_1_hogwarts.png');
+}
+
 .bg-\[url\(\'https\:\/\/images8\.alphacoders\.com\/110\/1102284\.jpg\'\)\] {
   background-image: url('https://images8.alphacoders.com/110/1102284.jpg');
 }
@@ -921,6 +965,18 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-\[100px\] {
+  padding: 100px;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
 }
 
 .p-\[50px\] {
@@ -955,6 +1011,11 @@ video {
 .px-\[50px\] {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.px-\[60px\] {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .px-\[80px\] {
@@ -1052,6 +1113,18 @@ video {
   text-indent: 1.5rem;
 }
 
+.text-\[10pt\] {
+  font-size: 10pt;
+}
+
+.text-\[15pt\] {
+  font-size: 15pt;
+}
+
+.text-\[18pt\] {
+  font-size: 18pt;
+}
+
 .text-\[20pt\] {
   font-size: 20pt;
 }
@@ -1066,6 +1139,14 @@ video {
 
 .text-\[40pt\] {
   font-size: 40pt;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-\[40px\] {
+  line-height: 40px;
 }
 
 .leading-\[50px\] {
@@ -1131,6 +1212,12 @@ video {
 
 .opacity-90 {
   opacity: 0.9;
+}
+
+.shadow-\[0px_20px_20px_10px_\#00000024\] {
+  --tw-shadow: 0px 20px 20px 10px #00000024;
+  --tw-shadow-colored: 0px 20px 20px 10px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-\[4\.0px_8\.0px_8\.0px_rgba\(0\2c 0\2c 0\2c 0\.38\)\] {
