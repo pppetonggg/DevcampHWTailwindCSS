@@ -23,4 +23,12 @@
         @apply py-[10px] px-[20px] bg-white text-black mx-1
     }
 
+    .page-btn:hover{
+        @apply bg-slate-500 text-white
+    }
+
+    .agree-hover:hover{
+        @apply bg-white text-black
+    }
+
 }
