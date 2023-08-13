@@ -34,4 +34,8 @@
     .continue-btn:hover{
         @apply bg-black opacity-75 text-white
     }
+
+    .logo img{
+        height: 50px;
+    }
 }
